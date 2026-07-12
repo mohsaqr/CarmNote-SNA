@@ -1,5 +1,9 @@
 # CarmNote SNA
 
+> **Reference:** Saqr, M., & López-Pernas, S. *CarmNote: A Portable,
+> Reproducible, Single-File Computational Software Purely in JavaScript.*
+> The International Symposium on Computers in Education (SIIE).
+
 **A portable, reproducible, single-file computational software for Social
 Network Analysis**
 
