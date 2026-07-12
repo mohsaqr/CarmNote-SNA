@@ -1,0 +1,12 @@
+{
+  "sna": {
+    "displayName": "CarmNote SNA",
+    "description": "Self-contained HTML notebook for Social Network Analysis, powered by snajs. Drop a CSV/TSV edge list, build the graph, and run ~95 centrality measures, community detection, clique enumeration, and graph-level metrics — fully offline, no install.",
+    "sourceDir": "../carm-sna",
+    "versionFile": "notebook.version.cjs",
+    "distDir": "dist",
+    "artifactPrefix": "sna-notebook_V",
+    "defaultArtifact": "sna-notebook_V{V}.html",
+    "releaseDir": "."
+  }
+}
