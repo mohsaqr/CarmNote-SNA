@@ -94,9 +94,9 @@ JavaScript.
 
 ## Releases
 
-Released versions are immutable: a file listed here is never changed or
-removed, and each is a byte-exact copy of the build output. Downloads can be
-verified against the SHA-256 checksums below.
+Released payloads are immutable: the checksummed bytes are never altered.
+Asset names and links follow the current public naming convention. Downloads
+can be verified against the SHA-256 checksums below.
 
 <!-- releases:begin -->
 | Version | Date | File | Size | SHA-256 |
