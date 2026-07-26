@@ -9,9 +9,9 @@ JavaScript numerical engine; one is the full build and one is minified.
 
 ## Quick recommendation
 
-Use the full file ending in **`.html`** without `.beta.min`:
+Use the full file ending in **`-full.html`**:
 
-`sna-notebook_V2.1.22.html`
+`sna-notebook_V2.1.22-full.html`
 
 It is the recommended build for routine analysis, teaching, sharing,
 and archiving.
@@ -20,8 +20,8 @@ and archiving.
 
 | Filename pattern | Engine | Packaging | Best use |
 |---|---|---|---|
-| `sna-notebook_V….html` | JavaScript | Full | Recommended default; analysis, teaching, sharing, and archiving |
-| `sna-notebook_V….beta.min.html` | JavaScript | Minified | Web hosting or bandwidth-sensitive direct download |
+| `sna-notebook_V…-full.html` | JavaScript | Full | Recommended default; analysis, teaching, sharing, and archiving |
+| `sna-notebook_V…-min.html` | JavaScript | Minified | Web hosting or bandwidth-sensitive direct download |
 
 CarmNote SNA does not currently have a separate WASM release. Both files run
 the same JavaScript analysis engine.
@@ -58,19 +58,13 @@ Prefer one of these delivery methods:
 Even the full `.html` build may be blocked by organizations that prohibit all
 HTML attachments. A download link is the most reliable option.
 
-## What “beta” means
-
-In these filenames, `beta` refers to the minified build pipeline. It does not
-identify a different network-analysis engine or different statistical
-results. The unminified file remains the conservative release default.
-
 ## How to identify a file
 
-For `sna-notebook_V2.1.22.beta.min.html`:
+For `sna-notebook_V2.1.22-min.html`:
 
 - `sna-notebook` — CarmNote SNA;
 - `V2.1.22` — notebook release version;
-- `.beta.min` — minified packaging;
+- `min` — minified packaging;
 - `.html` — complete self-contained notebook.
 
 The version shown in the filename should match the version badge inside the

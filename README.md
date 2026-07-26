@@ -87,7 +87,7 @@ saving and re-opening the file restores the complete prior analysis.
 ## Variants
 
 Each version is published as a full build and as a minified build of the
-same software; files ending in `.beta.min.html` are the minified form. The
+same software; files ending in `-min.html` are the minified form. The
 full build is the default and is what `index.html` points to. CarmNote SNA
 implements its entire numerical engine in pure TypeScript-compiled
 JavaScript.
@@ -101,6 +101,6 @@ verified against the SHA-256 checksums below.
 <!-- releases:begin -->
 | Version | Date | File | Size | SHA-256 |
 |---|---|---|---|---|
-| 2.1.22 | 2026-07-12 | [sna-notebook_V2.1.22.html](./versions/sna-notebook_V2.1.22.html) | 0.64 MB | `f909883866769efef39268bbf3a7e22cb79fd5918cfc98f8e3d4dfa989d37f5b` |
-| 2.1.22 | 2026-07-12 | [sna-notebook_V2.1.22.beta.min.html](./versions/sna-notebook_V2.1.22.beta.min.html) | 0.54 MB | `eb2a54bc0771d3888df4888e1880f726e5680b366025b37b10a7a40d23bbd198` |
+| 2.1.22 | 2026-07-12 | [sna-notebook_V2.1.22-full.html](./versions/sna-notebook_V2.1.22-full.html) | 0.64 MB | `f909883866769efef39268bbf3a7e22cb79fd5918cfc98f8e3d4dfa989d37f5b` |
+| 2.1.22 | 2026-07-12 | [sna-notebook_V2.1.22-min.html](./versions/sna-notebook_V2.1.22-min.html) | 0.54 MB | `eb2a54bc0771d3888df4888e1880f726e5680b366025b37b10a7a40d23bbd198` |
 <!-- releases:end -->
