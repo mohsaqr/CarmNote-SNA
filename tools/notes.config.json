@@ -7,6 +7,7 @@
     "distDir": "dist",
     "artifactPrefix": "sna-notebook_V",
     "defaultArtifact": "sna-notebook_V{V}-full.html",
+    "excludePattern": "-a(-[a-z])?\\.html$",
     "releaseDir": "."
   }
 }

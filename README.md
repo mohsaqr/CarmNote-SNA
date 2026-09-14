@@ -101,6 +101,8 @@ can be verified against the SHA-256 checksums below.
 <!-- releases:begin -->
 | Version | Date | File | Size | SHA-256 |
 |---|---|---|---|---|
+| 2.1.25 | 2026-09-14 | [sna-notebook_V2.1.25-full.html](./versions/sna-notebook_V2.1.25-full.html) | 0.68 MB | `88a9194e219e1b38eb03db56650a3920784033f7df4998006b9b5eaaaf1cad3d` |
+| 2.1.25 | 2026-09-14 | [sna-notebook_V2.1.25-min.html](./versions/sna-notebook_V2.1.25-min.html) | 0.57 MB | `bdcfec8f3a3400682895357f3f44de6882ee14d7f00f2eae1ac292888fac58f9` |
 | 2.1.22 | 2026-07-12 | [sna-notebook_V2.1.22-full.html](./versions/sna-notebook_V2.1.22-full.html) | 0.64 MB | `f909883866769efef39268bbf3a7e22cb79fd5918cfc98f8e3d4dfa989d37f5b` |
 | 2.1.22 | 2026-07-12 | [sna-notebook_V2.1.22-min.html](./versions/sna-notebook_V2.1.22-min.html) | 0.54 MB | `eb2a54bc0771d3888df4888e1880f726e5680b366025b37b10a7a40d23bbd198` |
 <!-- releases:end -->
