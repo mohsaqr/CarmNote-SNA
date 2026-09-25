@@ -9,7 +9,7 @@ JavaScript numerical engine; one is the full build and one is minified.
 
 ## Quick recommendation
 
-Use the full file ending in **`-full.html`**:
+The recommended file is the full build ending in **`-full.html`**:
 
 `sna-notebook_V2.1.22-full.html`
 
@@ -43,22 +43,22 @@ The minified build:
 
 ### Email warning
 
-Do **not** use the minified file as an ordinary email attachment. Many
+The minified file is **not** suitable as an ordinary email attachment. Many
 institutional and commercial mail systems block or quarantine HTML containing
 large minified scripts.
 
-Prefer one of these delivery methods:
+The preferred delivery methods are:
 
-1. Send a link to the immutable file in the GitHub release repository.
-2. Send a link from the approved LaCarm/notes website.
-3. Use an institutionally approved file-sharing service.
-4. If policy permits attachments, use the full build in an approved archive
-   format—but assume that some gateways also scan or block archives.
+1. A link to the immutable file in the GitHub release repository.
+2. A link from the approved LaCarm/notes website.
+3. An institutionally approved file-sharing service.
+4. Where policy permits attachments, the full build in an approved archive
+   format—with the caveat that some gateways also scan or block archives.
 
 Even the full `.html` build may be blocked by organizations that prohibit all
 HTML attachments. A download link is the most reliable option.
 
-## How to identify a file
+## File identification
 
 For `sna-notebook_V2.1.22-min.html`:
 
@@ -72,11 +72,11 @@ notebook.
 
 ## Integrity and archiving
 
-Released files are immutable. Use the SHA-256 value in the release table to
-verify a downloaded file. For long-term research archiving:
+Released files are immutable. The SHA-256 value in the release table verifies
+a downloaded file. Long-term research archiving involves:
 
-- keep the exact original release file;
-- keep the saved analysis notebook produced from it;
-- record the filename, version, and checksum;
-- prefer the full build unless storage or download constraints require the
-  minified form.
+- keeping the exact original release file;
+- keeping the saved analysis notebook produced from it;
+- recording the filename, version, and checksum;
+- preferring the full build unless storage or download constraints require
+  the minified form.

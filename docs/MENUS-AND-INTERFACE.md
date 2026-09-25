@@ -12,15 +12,15 @@ controls are documented separately in the
 
 ### CarmNote and version badge
 
-Identify the notebook type, release version, and compiled build. The filename
+Identifies the notebook type, release version, and compiled build. The filename
 and in-app version should agree.
 
 ### File menu
 
 #### New Notebook
 
-Creates a blank workspace. Save the current notebook first if a durable copy
-is required.
+Creates a blank workspace. The current notebook should be saved first if a
+durable copy is required.
 
 #### Load Data
 
@@ -34,8 +34,8 @@ data, graphs, settings, cells, and results.
 
 #### Publish
 
-Downloads a presentation-oriented read-only copy. Keep an editable saved copy
-before publishing.
+Downloads a presentation-oriented read-only copy. An editable saved copy
+should be kept before publishing.
 
 #### Copy All
 
@@ -53,13 +53,13 @@ portable notebook produced by **Save**.
 
 #### Print / PDF
 
-Opens the browser print dialog. Choose a PDF printer for a static PDF.
+Opens the browser print dialog. Choosing a PDF printer produces a static PDF.
 
 #### Create Assignment
 
 Creates an assignment-oriented notebook workflow in which selected content
-can be distributed for completion and submission. Keep an unrestricted
-editable copy before creating an assignment.
+can be distributed for completion and submission. An unrestricted editable
+copy should be kept before an assignment is created.
 
 #### Clear All
 
@@ -68,7 +68,8 @@ Removes active data, graphs, and cells from the current notebook.
 #### Reset notebook storage & reload
 
 Clears CarmNote SNA's browser-persisted workspace and reloads a clean notebook.
-Use this if stale or incompatible state is being restored. Downloaded `.html`
+It is intended for cases in which stale or incompatible state is being
+restored. Downloaded `.html`
 files are not deleted.
 
 ### Cell buttons
@@ -77,18 +78,18 @@ Each button adds a new cell:
 
 | Button | Purpose |
 |---|---|
-| **Generate** | Create a synthetic benchmark graph |
-| **Co-occurrence** | Build a network from items co-occurring within transactions or groups |
-| **Network** | Build an SNA graph from an edge list |
-| **Visualize** | Draw a selected source graph |
-| **Properties** | Compute structural graph properties and distributions |
-| **Centrality** | Compute node-importance measures |
-| **Community** | Detect cohesive node groups |
-| **Cliques** | Find fully connected node subsets |
-| **Text** | Add formatted narrative documentation |
-| **Code** | Run advanced JavaScript against the notebook state |
+| **Generate** | Creates a synthetic benchmark graph |
+| **Co-occurrence** | Builds a network from items co-occurring within transactions or groups |
+| **Network** | Builds an SNA graph from an edge list |
+| **Visualize** | Draws a selected source graph |
+| **Properties** | Computes structural graph properties and distributions |
+| **Centrality** | Computes node-importance measures |
+| **Community** | Detects cohesive node groups |
+| **Cliques** | Finds fully connected node subsets |
+| **Text** | Adds formatted narrative documentation |
+| **Code** | Runs advanced JavaScript against the notebook state |
 
-See the [Cell reference](./CELL-REFERENCE.md) for every cell.
+The [Cell reference](./CELL-REFERENCE.md) documents every cell.
 
 ### Run All
 
@@ -139,7 +140,7 @@ Selects the target-node column.
 
 ### Weight
 
-Selects an optional numeric weight. Choose none for an unweighted edge list.
+Selects an optional numeric weight. None is chosen for an unweighted edge list.
 
 ### Directed
 
@@ -170,7 +171,7 @@ If a build cell was split by a grouping column, scope controls choose between:
 - each group as small multiples;
 - a merged network.
 
-Always verify the selected source before interpreting a cell.
+The selected source should always be verified before a cell is interpreted.
 
 ## Visualize settings panel
 
@@ -229,19 +230,20 @@ Network plots offer:
 - **PNG** — high-resolution raster output;
 - **HD** — ultra-high-resolution PNG;
 - **JPG** — high-resolution JPEG;
-- **Copy** — copy a PNG to the clipboard;
-- **Fullscreen** — expand the plot.
+- **Copy** — copies a PNG to the clipboard;
+- **Fullscreen** — expands the plot.
 
-Prefer SVG for publication figures and PNG/HD for slides or raster workflows.
+SVG is preferred for publication figures and PNG/HD for slides or raster
+workflows.
 
 ## Table exports
 
 Enhanced tables provide:
 
-- download as CSV, TSV, JSON, or Markdown;
-- copy as TSV;
-- copy as HTML for Word/Google Docs;
-- copy as Markdown.
+- downloading as CSV, TSV, JSON, or Markdown;
+- copying as TSV;
+- copying as HTML for Word/Google Docs;
+- copying as Markdown.
 
 ## Lower-left notebook lock menu
 
@@ -270,7 +272,8 @@ Copies the seal metadata for external recording.
 
 Creates an editable copy while preserving the locked/sealed original.
 
-Select the intended state, then click **Save** to download that version.
+The intended state is selected first, and **Save** then downloads that
+version.
 
 ## Browser persistence versus portable save
 
