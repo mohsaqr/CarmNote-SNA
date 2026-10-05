@@ -101,6 +101,8 @@ can be verified against the SHA-256 checksums below.
 <!-- releases:begin -->
 | Version | Date | File | Size | SHA-256 |
 |---|---|---|---|---|
+| 2.1.29 | 2026-10-05 | [sna-notebook_V2.1.29-full.html](./versions/sna-notebook_V2.1.29-full.html) | 0.71 MB | `05a9e175a1b95f56fd8424e226d4b0a2944fe92c7a234062bd432fe832a5747d` |
+| 2.1.29 | 2026-10-05 | [sna-notebook_V2.1.29-min.html](./versions/sna-notebook_V2.1.29-min.html) | 0.60 MB | `8ca4f92439cbf6dc92ec771b0849cb478c4e111b3549b27b7825ac77310725eb` |
 | 2.1.28 | 2026-10-04 | [sna-notebook_V2.1.28-full.html](./versions/sna-notebook_V2.1.28-full.html) | 0.68 MB | `90c09404c7f6e9230fa3e7aecda9d9ef8936a0efbba9a33bac70c05e0b7ac5ad` |
 | 2.1.28 | 2026-10-04 | [sna-notebook_V2.1.28-min.html](./versions/sna-notebook_V2.1.28-min.html) | 0.57 MB | `e00f32d6b3d702d0fdfb4bea592416e85e41b2cc5a1b3f81d8816ec2f80c61ab` |
 | 2.1.27 | 2026-09-14 | [sna-notebook_V2.1.27-full.html](./versions/sna-notebook_V2.1.27-full.html) | 0.68 MB | `93c905ea5cb3d18433b207ba41f6ec277ec1427996da0551184bf50b1ebf0dd4` |
